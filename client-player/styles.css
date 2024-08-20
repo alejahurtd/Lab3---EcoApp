@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8; /* Fondo azul claro */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#player-form {
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid #1e90ff; /* Borde azul */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ffa500; /* Borde naranja */
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #e6f7ff; /* Fondo azul muy claro */
+}
+
+.icons button {
+  font-size: 30px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid #1e90ff; /* Borde azul */
+  background-color: #f0f4f8; /* Fondo azul claro */
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.icons button.selected {
+  background-color: #ffa500; /* Naranja cuando se selecciona */
+  transform: scale(1.1);
+}
+
+.icons button:hover {
+  background-color: #ffa500; /* Naranja al hacer hover */
+}
+
+#timer {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1e90ff; /* Fondo azul */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Azul más oscuro al hacer hover */
+}
+
+#data-container {
+  margin-top: 20px;
+}
+
+.item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #e6f7ff; /* Fondo azul muy claro */
+  border: 2px solid #ffa500; /* Borde naranja */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444; /* Texto más oscuro para contraste */
+}

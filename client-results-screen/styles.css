@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #1e90ff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#fetch-button {
+  background-color: #ffa500;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+#fetch-button:hover {
+  background-color: #ff7f00;
+}
+
+#data-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result, .history h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #1e90ff;
+  padding-bottom: 10px;
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+}
+
+.player-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #ffa500;
+}
+
+.result p, .history div p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.history h3 {
+  margin-top: 30px;
+}
+
+.history-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #e6f7ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #ffa500;
+}
+
+.winner {
+  font-weight: bold;
+  color: #26de81;
+}
+
+.loser {
+  font-weight: bold;
+  color: #fc5c65;
+}
+
+.tie {
+  font-weight: bold;
+  color: #fd9644;
+}
